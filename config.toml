@@ -5,6 +5,8 @@ umbral_hot = 100              # grados en Promodescuentos para avisar las catego
 max_alertas_por_corrida = 10  # el resto se va al resumen
 horas_silencio = [23, 7]      # de 23:00 a 7:00 las alertas llegan sin sonido
 dias_recordar = 21            # cuántos días se recuerda una oferta ya vista
+max_horas_publicada = 48      # ofertas publicadas antes de esto se ignoran
+max_paginas_por_corrida = 120 # páginas de oferta que se revisan (vigencia y grados) en cada corrida
 
 feeds = [
   "https://www.promodescuentos.com/rss/new",

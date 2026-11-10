@@ -14,6 +14,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+from email.utils import parsedate_to_datetime
 from html import escape
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -21,7 +22,8 @@ from zoneinfo import ZoneInfo
 RAIZ = Path(__file__).parent
 ESTADO = RAIZ / "estado"
 VISTOS = ESTADO / "vistos.json"
-OFERTAS = ESTADO / "ofertas.jsonl"
+OFERTAS = ESTADO / "ofertas.jsonl"      # historial: cada oferta nueva, una vez
+RECIENTES = ESTADO / "recientes.json"   # ofertas recientes con vigencia y grados al día (lo lee el resumen)
 TZ = ZoneInfo("America/Mexico_City")
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
 PRUEBA = "--prueba" in sys.argv
@@ -45,7 +47,12 @@ def leer_feed(url):
             "tienda": "",
             "precio": "",
             "temp": temp,
+            "publicada": None,
         }
+        try:
+            oferta["publicada"] = parsedate_to_datetime(item.findtext("pubDate")).astimezone(TZ).isoformat()
+        except Exception:
+            pass
         for el in item:
             if el.tag.endswith("merchant"):
                 oferta["tienda"] = el.get("name", "")
@@ -90,15 +97,33 @@ def mensaje(oferta, cat, motivo, cfg):
     return "\n".join(lineas)
 
 
+def detalle(link):
+    """Abre la página de la oferta: ¿ya venció? y grados actuales. None si no se pudo leer."""
+    try:
+        req = urllib.request.Request(link, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            p = r.read().decode("utf8", "replace")
+    except Exception:
+        return None
+    # El primer bloque de datos de la página es el de la propia oferta.
+    vencida = re.search(r'"isExpired":(true|false)', p)
+    temp = re.search(r'"temperature":(-?[\d.]+)', p)
+    return {"vencida": vencida is not None and vencida.group(1) == "true",
+            "temp": round(float(temp.group(1))) if temp else None}
+
+
 def main():
     cfg = tomllib.loads((RAIZ / "config.toml").read_text())
     categorias = cfg["categoria"]
     ahora = datetime.now(TZ)
     inicio, fin = cfg["horas_silencio"]
     silencioso = ahora.hour >= inicio or ahora.hour < fin
+    corte = ahora - timedelta(hours=cfg["max_horas_publicada"])
 
     primera_vez = not VISTOS.exists()
     vistos = {} if primera_vez else json.loads(VISTOS.read_text())
+    sin_recientes = not RECIENTES.exists()  # p.ej. al estrenar esta versión: llena la lista sin avisar
+    recientes = {} if sin_recientes else json.loads(RECIENTES.read_text())
 
     # Junta las ofertas de todos los feeds; si una aparece en varios, se queda con los grados.
     ofertas = {}
@@ -111,55 +136,82 @@ def main():
         except Exception as e:  # un feed caído no detiene a los demás
             print(f"⚠️ No se pudo leer {url}: {e}", file=sys.stderr)
 
-    alertas, nuevas = [], []
+    # 1) Ofertas de tus categorías publicadas hace poco → lista de recientes.
+    nuevas = []
     for o in ofertas.values():
+        if o["publicada"] and datetime.fromisoformat(o["publicada"]) < corte:
+            continue  # vieja: ni se considera
         cat = clasificar(o["titulo"], categorias)
         if cat is None:
             continue
-        estado = vistos.get(o["id"])
-        es_nueva = estado is None
-        if es_nueva:
-            estado = {"visto": ahora.isoformat(), "alertado": False}
-            vistos[o["id"]] = estado
-            nuevas.append({"fecha": ahora.isoformat(), "categoria": cat["nombre"], "prioridad": cat["prioridad"], **o})
-        if estado["alertado"] or primera_vez:
-            continue
+        if o["id"] not in vistos:
+            vistos[o["id"]] = {"visto": ahora.isoformat(), "alertado": False}
+            nuevas.append(o["id"])
+        r = recientes.setdefault(o["id"], {**o, "categoria": cat["nombre"], "emoji": cat["emoji"],
+                                           "prioridad": cat["prioridad"], "vencida": False})
+        if o["temp"] is not None:
+            r["temp"] = o["temp"]
 
-        motivo = None
-        if re.search(cfg["error_precio"], o["titulo"].lower()):
-            motivo = "🚨 <b>Posible error de precio</b>"
-        elif cat["prioridad"] == "alta" and es_nueva:
-            motivo = "⭐ <b>Oferta nueva (prioridad alta)</b>"
-        elif cat["prioridad"] != "baja" and (o["temp"] or 0) >= cfg["umbral_hot"]:
-            motivo = "🔥 <b>Oferta caliente</b>"
-        if motivo:
-            alertas.append((o, cat, motivo))
+    # 2) Revisa en su página cada reciente que siga vigente (vencida y grados al día).
+    recientes = {k: v for k, v in recientes.items()
+                 if not v.get("publicada") or datetime.fromisoformat(v["publicada"]) >= corte}
+    revisar = [r for r in recientes.values() if not r["vencida"]][: cfg["max_paginas_por_corrida"]]
+    for r in revisar:
+        d = detalle(r["link"])
+        if d:
+            r["vencida"] = d["vencida"]
+            if d["temp"] is not None:
+                r["temp"] = d["temp"]
+            r["revisada"] = ahora.isoformat()
+        time.sleep(0.3)  # sin saturar a Promodescuentos
 
-    for o, cat, motivo in alertas[: cfg["max_alertas_por_corrida"]]:
-        enviar(mensaje(o, cat, motivo, cfg), silencioso)
-        vistos[o["id"]]["alertado"] = True
+    # 3) Alertas (solo de ofertas vigentes).
+    alertas = []
+    if not (primera_vez or sin_recientes):
+        for id_, r in recientes.items():
+            if r["vencida"] or vistos.get(id_, {}).get("alertado"):
+                continue
+            cat = next(c for c in categorias if c["nombre"] == r["categoria"])
+            motivo = None
+            if re.search(cfg["error_precio"], r["titulo"].lower()):
+                motivo = "🚨 <b>Posible error de precio</b>"
+            elif r["prioridad"] == "alta" and id_ in nuevas:
+                motivo = "⭐ <b>Oferta nueva (prioridad alta)</b>"
+            elif r["prioridad"] != "baja" and (r.get("temp") or 0) >= cfg["umbral_hot"]:
+                motivo = "🔥 <b>Oferta caliente</b>"
+            if motivo:
+                alertas.append((id_, r, cat, motivo))
+
+    for id_, r, cat, motivo in alertas[: cfg["max_alertas_por_corrida"]]:
+        enviar(mensaje(r, cat, motivo, cfg), silencioso)
+        vistos.setdefault(id_, {"visto": ahora.isoformat()})["alertado"] = True
     sobrantes = len(alertas) - cfg["max_alertas_por_corrida"]
     if sobrantes > 0:
         enviar(f"➕ Hay {sobrantes} ofertas más; van en el próximo resumen.", silencioso)
 
     if primera_vez:
-        enviar(f"🤖 Vigilante activo. Encontré {len(nuevas)} ofertas recientes en tus categorías; "
-               "desde ahora te aviso solo de las nuevas.")
+        vigentes = sum(not r["vencida"] for r in recientes.values())
+        enviar(f"🤖 Vigilante activo. Hay {vigentes} ofertas vigentes de tus categorías publicadas en las "
+               f"últimas {cfg['max_horas_publicada']} h; desde ahora te aviso solo de las nuevas.")
 
     # Olvida lo que ya es viejo para que el archivo no crezca sin límite.
     limite = (ahora - timedelta(days=cfg["dias_recordar"])).isoformat()
     vistos = {k: v for k, v in vistos.items() if v["visto"] >= limite}
 
-    print(f"{len(ofertas)} ofertas leídas · {len(nuevas)} nuevas en tus categorías · {len(alertas)} alertas")
+    vigentes = [r for r in recientes.values() if not r["vencida"]]
+    print(f"{len(ofertas)} leídas · {len(recientes)} recientes ({len(vigentes)} vigentes) · "
+          f"{len(nuevas)} nuevas · {len(revisar)} páginas revisadas · {len(alertas)} alertas")
     if PRUEBA:
-        for n in nuevas:
-            print(f"  [{n['prioridad']:6}] {n['categoria']:24} {n['precio']:>9}  {n['titulo'][:70]}")
+        for r in sorted(vigentes, key=lambda r: r.get("publicada") or "", reverse=True):
+            print(f"  [{r['prioridad']:6}] {r['categoria']:24} {r['precio']:>9} {str(r.get('temp')):>5}°"
+                  f"  {(r.get('publicada') or '')[:16]}  {r['titulo'][:55]}")
         return
     ESTADO.mkdir(exist_ok=True)
     VISTOS.write_text(json.dumps(vistos, ensure_ascii=False, indent=0))
-    with OFERTAS.open("a") as f:
-        for n in nuevas:
-            f.write(json.dumps(n, ensure_ascii=False) + "\n")
+    RECIENTES.write_text(json.dumps(recientes, ensure_ascii=False, indent=1))
+    with OFERTAS.open("a") as f:  # historial completo (para comparar precios más adelante)
+        for id_ in nuevas:
+            f.write(json.dumps({"fecha": ahora.isoformat(), **recientes[id_]}, ensure_ascii=False) + "\n")
 
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@ filtra por categorías y avisa por Telegram. No usa IA.
 
 - `config.toml` — categorías, prioridades, palabras clave y umbrales.
 - `vigilante.py` — el script (`python3 vigilante.py --prueba` para probar sin enviar nada).
-- `estado/` — ofertas ya vistas e historial (lo actualiza el propio bot).
+- `estado/` — lo actualiza el propio bot: `recientes.json` (ofertas de las últimas 48 h con vigencia y grados al día; lo lee el resumen), `vistos.json` y `ofertas.jsonl` (historial).
 
 Prioridades:
 - **alta** — avisa cada oferta nueva.
