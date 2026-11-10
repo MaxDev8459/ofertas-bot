@@ -112,6 +112,38 @@ def detalle(link):
             "temp": round(float(temp.group(1))) if temp else None}
 
 
+def pagina_vigentes(recientes, categorias, ahora):
+    """Markdown con todas las ofertas vigentes, por categoría y de más a menos grados."""
+    def hace(iso):
+        if not iso:
+            return "?"
+        h = (ahora - datetime.fromisoformat(iso)).total_seconds() / 3600
+        return f"{h:.0f} h" if h >= 1 else f"{h * 60:.0f} min"
+
+    vigentes = [r for r in recientes.values() if not r["vencida"]]
+    lineas = [
+        "# 🛒 Ofertas vigentes",
+        "",
+        f"Actualizado: **{ahora:%d/%m/%Y %H:%M}** (hora de México) · {len(vigentes)} ofertas · "
+        "publicadas en las últimas 48 h y confirmadas como vigentes en Promodescuentos.",
+        "",
+        "Se actualiza sola cada 30 min. Los grados (°) son los votos de la comunidad: más alto = mejor oferta.",
+    ]
+    for cat in categorias:
+        grupo = sorted((r for r in vigentes if r["categoria"] == cat["nombre"]),
+                       key=lambda r: r.get("temp") or 0, reverse=True)
+        lineas += ["", f"## {cat['emoji']} {cat['nombre']} ({len(grupo)})", ""]
+        if not grupo:
+            lineas.append("_Sin ofertas vigentes por ahora._")
+            continue
+        lineas += ["| Precio | Tienda | Oferta | ° | Publicada |", "|---|---|---|---|---|"]
+        for r in grupo:
+            titulo = re.sub(r"^[^:]{1,30}:\s*", "", r["titulo"]).replace("|", "/")[:90]
+            lineas.append(f"| **{r['precio'] or '?'}** | {r['tienda'] or '?'} | [{titulo}]({r['link']}) "
+                          f"| {r.get('temp') if r.get('temp') is not None else '?'} | hace {hace(r.get('publicada'))} |")
+    return "\n".join(lineas) + "\n"
+
+
 def main():
     cfg = tomllib.loads((RAIZ / "config.toml").read_text())
     categorias = cfg["categoria"]
@@ -209,6 +241,7 @@ def main():
     ESTADO.mkdir(exist_ok=True)
     VISTOS.write_text(json.dumps(vistos, ensure_ascii=False, indent=0))
     RECIENTES.write_text(json.dumps(recientes, ensure_ascii=False, indent=1))
+    (RAIZ / "VIGENTES.md").write_text(pagina_vigentes(recientes, categorias, ahora))
     with OFERTAS.open("a") as f:  # historial completo (para comparar precios más adelante)
         for id_ in nuevas:
             f.write(json.dumps({"fecha": ahora.isoformat(), **recientes[id_]}, ensure_ascii=False) + "\n")

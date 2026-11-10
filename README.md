@@ -1,5 +1,7 @@
 # ofertas-bot
 
+📋 **[Ver todas las ofertas vigentes](VIGENTES.md)** (se actualiza cada 30 min)
+
 Vigilante de ofertas de cómputo para México. Cada 30 min lee [Promodescuentos](https://www.promodescuentos.com),
 filtra por categorías y avisa por Telegram. No usa IA.
 
