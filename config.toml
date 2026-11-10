@@ -1,0 +1,76 @@
+# Configuración del vigilante de ofertas.
+# Las expresiones (incluye / excluye) se buscan en el TÍTULO de la oferta, sin importar mayúsculas.
+
+umbral_hot = 100              # grados en Promodescuentos para avisar las categorías "normal"
+max_alertas_por_corrida = 10  # el resto se va al resumen
+horas_silencio = [23, 7]      # de 23:00 a 7:00 las alertas llegan sin sonido
+dias_recordar = 21            # cuántos días se recuerda una oferta ya vista
+
+feeds = [
+  "https://www.promodescuentos.com/rss/new",
+  "https://www.promodescuentos.com/rss/hot",
+  "https://www.promodescuentos.com/rss/grupo/tarjetas-graficas",
+  "https://www.promodescuentos.com/rss/grupo/memoria-ram",
+  "https://www.promodescuentos.com/rss/grupo/laptops",
+  "https://www.promodescuentos.com/rss/grupo/ssd",
+  "https://www.promodescuentos.com/rss/grupo/monitores",
+  "https://www.promodescuentos.com/rss/grupo/procesadores",
+  "https://www.promodescuentos.com/rss/grupo/cargadores",
+]
+
+# Palabras que indican un posible error de precio: se avisa siempre.
+error_precio = 'error de precio|errorazo|bug de precio|glitch|precio err[oó]neo|preciazo'
+
+# Laptops reacondicionadas: se marcan para revisar garantía y vendedor.
+reacondicionado = 'reacondicionad|renewed|seminuev|refurbished|open box'
+
+# El orden importa: la primera categoría que coincide se queda con la oferta.
+# prioridad: alta = avisa cada oferta nueva · normal = avisa si está caliente · baja = solo resumen
+
+[[categoria]]
+nombre = "UGREEN"
+emoji = "🔌"
+prioridad = "normal"
+incluye = 'ugreen'
+
+[[categoria]]
+nombre = "Laptop"
+emoji = "💻"
+prioridad = "normal"
+incluye = 'windows 11|win 11|laptop|notebook|computadora port[aá]til|\btuf\b|zephyrus|strix|inspiron|pavilion|aspire|yoga|thinkbook|copilot\+? pc|aero x|snapdragon x|macbook|thinkpad|latitude|elitebook|probook|chromebook|vivobook|zenbook|ideapad|\bloq\b|legion|victus|omen|nitro|predator|rog |tuf gaming'
+excluye = 'memoria ram|ram gamer|so-?dimm|monitor|consola|xbox|ally|steam deck|mini ?pc|all in one|escritorio|mochila|funda|base para|soporte para|cargador|teclado para|malet[ií]n|enfriador|cooler'
+
+[[categoria]]
+nombre = "Tarjeta gráfica NVIDIA"
+emoji = "🎮"
+prioridad = "alta"
+incluye = '\brtx\b|\bgtx ?\d|geforce|nvidia'
+excluye = 'aceite|motor|\bram\b|core i|\bi[3579]\b|ryzen|intel|laptop|pc gamer|computadora|gabinete|\bpc\b|consola|tablet|shield'
+
+[[categoria]]
+nombre = "Memoria RAM"
+emoji = "🧠"
+prioridad = "alta"
+incluye = 'ddr ?[45]|so-?dimm|\bdimm\b|memoria ram'
+excluye = 'celular|smartphone|tel[eé]fono|tablet|iphone|galaxy|redmi|xiaomi|motorola|oppo|honor|realme|poco |pc gamer|mini ?pc|procesador|ryzen|intel|core i\d|\bi[3579][ -]?\d|motherboard|tarjeta madre|placa'
+
+[[categoria]]
+nombre = "SSD"
+emoji = "💾"
+prioridad = "normal"
+incluye = '\bssd\b|nvme|m\.2'
+excluye = 'laptop|port[aá]til|pc gamer|consola|xbox|ally|steam deck|enclosure|carcasa|gabinete|adaptador|motherboard|tarjeta madre|placa|\b[abhxz]\d{3}[a-z]?\b'
+
+[[categoria]]
+nombre = "Monitor"
+emoji = "🖥️"
+prioridad = "normal"
+incluye = '\bmonitor\b'
+excluye = 'monitor de presi[oó]n|bebé|beb[eé]|ritmo card|signos vitales|brazo|soporte'
+
+[[categoria]]
+nombre = "Procesador Ryzen"
+emoji = "⚙️"
+prioridad = "baja"
+incluye = 'ryzen'
+excluye = 'laptop|port[aá]til|pc gamer|mini ?pc|computadora|windows|win 11|consola|xbox|ally'
