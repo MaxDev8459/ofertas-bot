@@ -1,7 +1,7 @@
 # Configuración del vigilante de ofertas.
 # Las expresiones (incluye / excluye) se buscan en el TÍTULO de la oferta, sin importar mayúsculas.
 
-umbral_hot = 100              # grados en Promodescuentos para avisar las categorías "normal"
+umbral_hot = 300              # grados en Promodescuentos para avisar las categorías "normal" (100 = popular, 300+ = muy buena)
 max_alertas_por_corrida = 10  # el resto se va al resumen
 horas_silencio = [23, 7]      # de 23:00 a 7:00 las alertas llegan sin sonido
 dias_recordar = 21            # cuántos días se recuerda una oferta ya vista
