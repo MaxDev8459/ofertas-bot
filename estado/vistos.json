@@ -649,7 +649,7 @@
 },
 "https://www.promodescuentos.com/ofertas/costco-apple-mac-mini-m5-pro-24gb-512gb-ssd-1206485": {
 "visto": "2026-11-10T10:38:33.090092-06:00",
-"alertado": false
+"alertado": true
 },
 "https://www.promodescuentos.com/ofertas/laptop-asus-tuf-gaming-16-wuxga-ryzen-7-16gb-ram-512-sdd-1206476": {
 "visto": "2026-11-10T10:38:33.090092-06:00",
@@ -726,5 +726,25 @@
 "https://www.promodescuentos.com/ofertas/juhor-memoria-ram-ddr4-8gbx2-3200mhz-para-escritorio-1206793": {
 "visto": "2026-11-11T02:29:27.729971-06:00",
 "alertado": true
+},
+"https://www.promodescuentos.com/ofertas/waltmart-macbook-air-m5-1207077": {
+"visto": "2026-11-11T10:27:32.301673-06:00",
+"alertado": true
+},
+"https://www.promodescuentos.com/ofertas/asus-rog-strix-xg27aqdmg-monitor-27-pulgadas-qhd-240hz-woled-para-pc-gamer-amazon-days-1207056": {
+"visto": "2026-11-11T10:27:32.301673-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/monitor-arzopa-27-2k-1206991": {
+"visto": "2026-11-11T10:27:32.301673-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/ultra-mini-cargador-ugreen-nexode-air-de-100-w-con-tecnologia-gan-compatible-con-pd30-qc40-y-pps-para-macbook-pro-macbook-air-1207009": {
+"visto": "2026-11-11T10:27:32.301673-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/ugreen-65w-gan-cargador-uno-robot-diseno-pd-cargador-rapido-pps-pd30-para-iphone-17-16-15-carga-rapida-para-xiaomi-portatil-macbook-pro-1206974": {
+"visto": "2026-11-11T10:27:32.301673-06:00",
+"alertado": false
 }
 }
