@@ -689,7 +689,7 @@
 },
 "https://www.promodescuentos.com/ofertas/aoc-monitor-portatil-16t20-1206587": {
 "visto": "2026-11-10T16:00:04.436211-06:00",
-"alertado": false
+"alertado": true
 },
 "https://www.promodescuentos.com/ofertas/aliexpress-memoria-ram-ddr3-3200-2x8gb-1206765": {
 "visto": "2026-11-10T19:43:21.749792-06:00",
@@ -761,6 +761,10 @@
 },
 "https://www.promodescuentos.com/ofertas/amazon-estados-unidos-asus-rog-strix-scar-intel-ultra-9-275hx-nvidia-geforce-rtx-5090-pro-gaming-laptop-rog-nebula-hdr-de-16-pulgadas-1207095": {
 "visto": "2026-11-11T16:53:18.792476-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/amd-ryzen-7-5700x-procesador-1207403": {
+"visto": "2026-11-11T21:27:57.499010-06:00",
 "alertado": false
 }
 }
