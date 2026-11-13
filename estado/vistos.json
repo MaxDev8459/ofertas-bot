@@ -817,7 +817,7 @@
 },
 "https://www.promodescuentos.com/ofertas/aliexpress-ssd-de-la-marca-cusu-sata-25-sata-iii-de-128gb-1207595": {
 "visto": "2026-11-12T13:13:41.534254-06:00",
-"alertado": false
+"alertado": true
 },
 "https://www.promodescuentos.com/ofertas/amazon-lg-monitor-ultragear-gaming-27-180hz-full-hd-27gs50f-b-1920-x-1080-1207733": {
 "visto": "2026-11-12T13:13:41.534254-06:00",
@@ -825,6 +825,10 @@
 },
 "https://www.promodescuentos.com/ofertas/monitor-gamer-27-pulgadas-mzq27f210l-a-1207560": {
 "visto": "2026-11-12T13:13:41.534254-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/office-depot-lenovo-ideapad-core-i7-24gb-ram-1tb-ssd-mouse-1207796": {
+"visto": "2026-11-12T18:35:13.705787-06:00",
 "alertado": false
 }
 }
