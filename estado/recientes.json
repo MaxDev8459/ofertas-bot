@@ -1,32 +1,4 @@
 {
- "https://www.promodescuentos.com/ofertas/aliexpress-memoria-ram-ddr3-3200-2x8gb-1206765": {
-  "id": "https://www.promodescuentos.com/ofertas/aliexpress-memoria-ram-ddr3-3200-2x8gb-1206765",
-  "titulo": "Aliexpress: Memoria RAM DDR3 3200 2x8gb",
-  "link": "https://www.promodescuentos.com/ofertas/aliexpress-memoria-ram-ddr3-3200-2x8gb-1206765",
-  "tienda": "AliExpress",
-  "precio": "$1,429",
-  "temp": 635,
-  "publicada": "2026-11-10T19:06:14-06:00",
-  "categoria": "Memoria RAM",
-  "emoji": "🧠",
-  "prioridad": "alta",
-  "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
- },
- "https://www.promodescuentos.com/ofertas/amazon-ugreen-magflow-25w-qi22-cargador-inalambrico-3-en-1-con-refrigeracion-tec-magsafe-pantalla-led-inteligente-1206760": {
-  "id": "https://www.promodescuentos.com/ofertas/amazon-ugreen-magflow-25w-qi22-cargador-inalambrico-3-en-1-con-refrigeracion-tec-magsafe-pantalla-led-inteligente-1206760",
-  "titulo": "Amazon: UGREEN MagFlow 25W Qi2.2 Cargador Inalámbrico 3 en 1 con Refrigeración Tec Magsafe, Pantalla LED Inteligente",
-  "link": "https://www.promodescuentos.com/ofertas/amazon-ugreen-magflow-25w-qi22-cargador-inalambrico-3-en-1-con-refrigeracion-tec-magsafe-pantalla-led-inteligente-1206760",
-  "tienda": "Amazon",
-  "precio": "$1,999",
-  "temp": 96,
-  "publicada": "2026-11-10T18:38:37-06:00",
-  "categoria": "UGREEN",
-  "emoji": "🔌",
-  "prioridad": "normal",
-  "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
- },
  "https://www.promodescuentos.com/ofertas/xiaomi-monitor-a24i-2026-1206944": {
   "id": "https://www.promodescuentos.com/ofertas/xiaomi-monitor-a24i-2026-1206944",
   "titulo": "Xiaomi Shop: Xiaomi Monitor A24i 2026",
@@ -39,63 +11,7 @@
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
- },
- "https://www.promodescuentos.com/ofertas/amazon-mexico-siendo-amazon-prime-asus-rog-3070ti-y-otras-a-mitad-de-precio-1206826": {
-  "id": "https://www.promodescuentos.com/ofertas/amazon-mexico-siendo-amazon-prime-asus-rog-3070ti-y-otras-a-mitad-de-precio-1206826",
-  "titulo": "AMAZON MEXICO: SIENDO AMAZON PRIME.- ASUS ROG 3070TI Y OTRAS A MITAD DE PRECIO",
-  "link": "https://www.promodescuentos.com/ofertas/amazon-mexico-siendo-amazon-prime-asus-rog-3070ti-y-otras-a-mitad-de-precio-1206826",
-  "tienda": "Amazon",
-  "precio": "$5,000",
-  "temp": 139,
-  "publicada": "2026-11-10T21:33:34-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": true,
-  "revisada": "2026-11-11T02:29:27.729971-06:00"
- },
- "https://www.promodescuentos.com/ofertas/64-gb-2x32ddr5-corsair-rgb-1206871": {
-  "id": "https://www.promodescuentos.com/ofertas/64-gb-2x32ddr5-corsair-rgb-1206871",
-  "titulo": "Amazon: Memoria RAM 64 GB (2x32)DDR5 Corsair RGB",
-  "link": "https://www.promodescuentos.com/ofertas/64-gb-2x32ddr5-corsair-rgb-1206871",
-  "tienda": "Amazon",
-  "precio": "$13,500",
-  "temp": 635,
-  "publicada": "2026-11-10T22:39:12-06:00",
-  "categoria": "Memoria RAM",
-  "emoji": "🧠",
-  "prioridad": "alta",
-  "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
- },
- "https://www.promodescuentos.com/ofertas/amazon-32-gb-de-ram-lexar-area-2x16-ddr5-cl26-6000-mts-1206865": {
-  "id": "https://www.promodescuentos.com/ofertas/amazon-32-gb-de-ram-lexar-area-2x16-ddr5-cl26-6000-mts-1206865",
-  "titulo": "Amazon: 32 GB de Ram Lexar Area (2x16) DDR5 CL26 6,000 MT/s",
-  "link": "https://www.promodescuentos.com/ofertas/amazon-32-gb-de-ram-lexar-area-2x16-ddr5-cl26-6000-mts-1206865",
-  "tienda": "Amazon",
-  "precio": "$7,577",
-  "temp": 139,
-  "publicada": "2026-11-10T22:26:55-06:00",
-  "categoria": "Memoria RAM",
-  "emoji": "🧠",
-  "prioridad": "alta",
-  "vencida": true,
-  "revisada": "2026-11-11T02:29:27.729971-06:00"
- },
- "https://www.promodescuentos.com/ofertas/juhor-memoria-ram-ddr4-8gbx2-3200mhz-para-escritorio-1206793": {
-  "id": "https://www.promodescuentos.com/ofertas/juhor-memoria-ram-ddr4-8gbx2-3200mhz-para-escritorio-1206793",
-  "titulo": "AliExpress: JUHOR Memoria RAM DDR4 8GBx2 3200MHz para Escritorio",
-  "link": "https://www.promodescuentos.com/ofertas/juhor-memoria-ram-ddr4-8gbx2-3200mhz-para-escritorio-1206793",
-  "tienda": "AliExpress",
-  "precio": "$2,456",
-  "temp": 635,
-  "publicada": "2026-11-10T20:23:09-06:00",
-  "categoria": "Memoria RAM",
-  "emoji": "🧠",
-  "prioridad": "alta",
-  "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/waltmart-macbook-air-m5-1207077": {
   "id": "https://www.promodescuentos.com/ofertas/waltmart-macbook-air-m5-1207077",
@@ -109,7 +25,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/asus-rog-strix-xg27aqdmg-monitor-27-pulgadas-qhd-240hz-woled-para-pc-gamer-amazon-days-1207056": {
   "id": "https://www.promodescuentos.com/ofertas/asus-rog-strix-xg27aqdmg-monitor-27-pulgadas-qhd-240hz-woled-para-pc-gamer-amazon-days-1207056",
@@ -117,13 +33,13 @@
   "link": "https://www.promodescuentos.com/ofertas/asus-rog-strix-xg27aqdmg-monitor-27-pulgadas-qhd-240hz-woled-para-pc-gamer-amazon-days-1207056",
   "tienda": "Amazon",
   "precio": "$8,899",
-  "temp": 135,
+  "temp": 52,
   "publicada": "2026-11-11T09:58:44-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/monitor-arzopa-27-2k-1206991": {
   "id": "https://www.promodescuentos.com/ofertas/monitor-arzopa-27-2k-1206991",
@@ -137,7 +53,7 @@
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/ultra-mini-cargador-ugreen-nexode-air-de-100-w-con-tecnologia-gan-compatible-con-pd30-qc40-y-pps-para-macbook-pro-macbook-air-1207009": {
   "id": "https://www.promodescuentos.com/ofertas/ultra-mini-cargador-ugreen-nexode-air-de-100-w-con-tecnologia-gan-compatible-con-pd30-qc40-y-pps-para-macbook-pro-macbook-air-1207009",
@@ -145,13 +61,13 @@
   "link": "https://www.promodescuentos.com/ofertas/ultra-mini-cargador-ugreen-nexode-air-de-100-w-con-tecnologia-gan-compatible-con-pd30-qc40-y-pps-para-macbook-pro-macbook-air-1207009",
   "tienda": "AliExpress",
   "precio": "$389",
-  "temp": 95,
+  "temp": 125,
   "publicada": "2026-11-11T09:13:32-06:00",
   "categoria": "UGREEN",
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/ugreen-65w-gan-cargador-uno-robot-diseno-pd-cargador-rapido-pps-pd30-para-iphone-17-16-15-carga-rapida-para-xiaomi-portatil-macbook-pro-1206974": {
   "id": "https://www.promodescuentos.com/ofertas/ugreen-65w-gan-cargador-uno-robot-diseno-pd-cargador-rapido-pps-pd30-para-iphone-17-16-15-carga-rapida-para-xiaomi-portatil-macbook-pro-1206974",
@@ -159,13 +75,13 @@
   "link": "https://www.promodescuentos.com/ofertas/ugreen-65w-gan-cargador-uno-robot-diseno-pd-cargador-rapido-pps-pd30-para-iphone-17-16-15-carga-rapida-para-xiaomi-portatil-macbook-pro-1206974",
   "tienda": "AliExpress",
   "precio": "$416",
-  "temp": 185,
+  "temp": 203,
   "publicada": "2026-11-11T06:53:26-06:00",
   "categoria": "UGREEN",
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/walmart-en-linea-core-i5-16-gb-ram-512-gb-ssd-banamex-18-msi-con-cupon-1207203": {
   "id": "https://www.promodescuentos.com/ofertas/walmart-en-linea-core-i5-16-gb-ram-512-gb-ssd-banamex-18-msi-con-cupon-1207203",
@@ -173,13 +89,13 @@
   "link": "https://www.promodescuentos.com/ofertas/walmart-en-linea-core-i5-16-gb-ram-512-gb-ssd-banamex-18-msi-con-cupon-1207203",
   "tienda": "Walmart",
   "precio": "$11,049",
-  "temp": 84,
+  "temp": 205,
   "publicada": "2026-11-11T15:59:32-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/amazon-gigabyte-laptop-gamer-aorus-15-intel-core-i5-12500h16gb-ram-ddr5-512gb-ssd-rtx-4050-1207190": {
   "id": "https://www.promodescuentos.com/ofertas/amazon-gigabyte-laptop-gamer-aorus-15-intel-core-i5-12500h16gb-ram-ddr5-512gb-ssd-rtx-4050-1207190",
@@ -201,13 +117,13 @@
   "link": "https://www.promodescuentos.com/ofertas/mercado-libre-laptop-gamer-lenovo-loq-156-fhd-amd-ryzen-7-170-16-gb-ram-512-gb-ssd-nvidia-geforce-rtx-4050-6-gb-1207141",
   "tienda": "Mercado Libre",
   "precio": "$17,719",
-  "temp": 986,
+  "temp": 992,
   "publicada": "2026-11-11T12:32:53-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/amazon-estados-unidos-asus-rog-strix-scar-intel-ultra-9-275hx-nvidia-geforce-rtx-5090-pro-gaming-laptop-rog-nebula-hdr-de-16-pulgadas-1207095": {
   "id": "https://www.promodescuentos.com/ofertas/amazon-estados-unidos-asus-rog-strix-scar-intel-ultra-9-275hx-nvidia-geforce-rtx-5090-pro-gaming-laptop-rog-nebula-hdr-de-16-pulgadas-1207095",
@@ -243,13 +159,13 @@
   "link": "https://www.promodescuentos.com/ofertas/ali-express-cargador-ugreen-nexode-air-45w-con-monedas-1207530",
   "tienda": "AliExpress",
   "precio": "$170",
-  "temp": 363,
+  "temp": 365,
   "publicada": "2026-11-12T01:41:18-06:00",
   "categoria": "UGREEN",
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/ugreen-45w-cargador-tipo-c-gan-portatil-pd-5-puertos-4-usb-c-y-usb-a-carga-super-rapida-20-1207534": {
   "id": "https://www.promodescuentos.com/ofertas/ugreen-45w-cargador-tipo-c-gan-portatil-pd-5-puertos-4-usb-c-y-usb-a-carga-super-rapida-20-1207534",
@@ -257,13 +173,13 @@
   "link": "https://www.promodescuentos.com/ofertas/ugreen-45w-cargador-tipo-c-gan-portatil-pd-5-puertos-4-usb-c-y-usb-a-carga-super-rapida-20-1207534",
   "tienda": "Amazon",
   "precio": "$377",
-  "temp": 212,
+  "temp": 125,
   "publicada": "2026-11-12T01:41:12-06:00",
   "categoria": "UGREEN",
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/ugreen-concentrador-usb-1207502": {
   "id": "https://www.promodescuentos.com/ofertas/ugreen-concentrador-usb-1207502",
@@ -277,7 +193,7 @@
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/amazon-power-bank-para-laptop-anker-25000mah-165w-cable-usb-c-240w-1207409": {
   "id": "https://www.promodescuentos.com/ofertas/amazon-power-bank-para-laptop-anker-25000mah-165w-cable-usb-c-240w-1207409",
@@ -285,13 +201,13 @@
   "link": "https://www.promodescuentos.com/ofertas/amazon-power-bank-para-laptop-anker-25000mah-165w-cable-usb-c-240w-1207409",
   "tienda": "Amazon",
   "precio": "$1,407",
-  "temp": 114,
+  "temp": 136,
   "publicada": "2026-11-12T00:16:47-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/laptop-hp-15-fc0217la-amd-atlhon-8gb-ram-256gb-ssd-plateado-1207424": {
   "id": "https://www.promodescuentos.com/ofertas/laptop-hp-15-fc0217la-amd-atlhon-8gb-ram-256gb-ssd-plateado-1207424",
@@ -313,13 +229,13 @@
   "link": "https://www.promodescuentos.com/ofertas/mercado-libre-monitor-thunderobot-27-1207483",
   "tienda": "Mercado Libre",
   "precio": "$4,767",
-  "temp": 135,
+  "temp": 54,
   "publicada": "2026-11-11T23:17:41-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/walmart-asus-a15-ryzen-7-8-ram-rtx-3050-1207773": {
   "id": "https://www.promodescuentos.com/ofertas/walmart-asus-a15-ryzen-7-8-ram-rtx-3050-1207773",
@@ -327,13 +243,13 @@
   "link": "https://www.promodescuentos.com/ofertas/walmart-asus-a15-ryzen-7-8-ram-rtx-3050-1207773",
   "tienda": "",
   "precio": "$9,990",
-  "temp": 83,
+  "temp": 436,
   "publicada": "2026-11-12T13:06:41-06:00",
   "categoria": "Procesador Ryzen",
   "emoji": "⚙️",
   "prioridad": "baja",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/apple-macbook-pro-13-512gb-ssd-gris-espacial-reacondicionada-1207768": {
   "id": "https://www.promodescuentos.com/ofertas/apple-macbook-pro-13-512gb-ssd-gris-espacial-reacondicionada-1207768",
@@ -355,13 +271,13 @@
   "link": "https://www.promodescuentos.com/ofertas/lg-ultragear-evo-gx9-oled-45-con-resolucion-5k2k-y-escalado-por-ia-nos-adelantamospagando-con-paypal-1207724",
   "tienda": "LG",
   "precio": "$19,399",
-  "temp": 206,
+  "temp": 213,
   "publicada": "2026-11-12T12:36:55-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/monitor-woled-tandem-lg-ultragear-evo-gx9-de-39-pulgadas-5k2k-1207725": {
   "id": "https://www.promodescuentos.com/ofertas/monitor-woled-tandem-lg-ultragear-evo-gx9-de-39-pulgadas-5k2k-1207725",
@@ -369,13 +285,13 @@
   "link": "https://www.promodescuentos.com/ofertas/monitor-woled-tandem-lg-ultragear-evo-gx9-de-39-pulgadas-5k2k-1207725",
   "tienda": "LG",
   "precio": "$17,499",
-  "temp": 135,
+  "temp": 54,
   "publicada": "2026-11-12T12:30:09-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/hp-victus-ryzen-7-nvidia-rtx-3050-12-gb-ram-1207569": {
   "id": "https://www.promodescuentos.com/ofertas/hp-victus-ryzen-7-nvidia-rtx-3050-12-gb-ram-1207569",
@@ -383,13 +299,13 @@
   "link": "https://www.promodescuentos.com/ofertas/hp-victus-ryzen-7-nvidia-rtx-3050-12-gb-ram-1207569",
   "tienda": "Amazon",
   "precio": "$15,999",
-  "temp": 986,
+  "temp": 194,
   "publicada": "2026-11-12T07:16:37-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/disco-solido-ssd-1207680": {
   "id": "https://www.promodescuentos.com/ofertas/disco-solido-ssd-1207680",
@@ -397,13 +313,13 @@
   "link": "https://www.promodescuentos.com/ofertas/disco-solido-ssd-1207680",
   "tienda": "Mercado Libre",
   "precio": "$674",
-  "temp": 224,
+  "temp": 259,
   "publicada": "2026-11-12T10:15:36-06:00",
   "categoria": "SSD",
   "emoji": "💾",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/aliexpress-ssd-de-la-marca-cusu-sata-25-sata-iii-de-128gb-1207595": {
   "id": "https://www.promodescuentos.com/ofertas/aliexpress-ssd-de-la-marca-cusu-sata-25-sata-iii-de-128gb-1207595",
@@ -411,13 +327,13 @@
   "link": "https://www.promodescuentos.com/ofertas/aliexpress-ssd-de-la-marca-cusu-sata-25-sata-iii-de-128gb-1207595",
   "tienda": "AliExpress",
   "precio": "$260",
-  "temp": 635,
+  "temp": 281,
   "publicada": "2026-11-12T08:19:40-06:00",
   "categoria": "SSD",
   "emoji": "💾",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/amazon-lg-monitor-ultragear-gaming-27-180hz-full-hd-27gs50f-b-1920-x-1080-1207733": {
   "id": "https://www.promodescuentos.com/ofertas/amazon-lg-monitor-ultragear-gaming-27-180hz-full-hd-27gs50f-b-1920-x-1080-1207733",
@@ -425,13 +341,13 @@
   "link": "https://www.promodescuentos.com/ofertas/amazon-lg-monitor-ultragear-gaming-27-180hz-full-hd-27gs50f-b-1920-x-1080-1207733",
   "tienda": "Amazon",
   "precio": "$2,719",
-  "temp": 263,
+  "temp": 159,
   "publicada": "2026-11-12T11:45:52-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/monitor-gamer-27-pulgadas-mzq27f210l-a-1207560": {
   "id": "https://www.promodescuentos.com/ofertas/monitor-gamer-27-pulgadas-mzq27f210l-a-1207560",
@@ -445,7 +361,7 @@
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-12T18:35:13.705787-06:00"
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  },
  "https://www.promodescuentos.com/ofertas/office-depot-lenovo-ideapad-core-i7-24gb-ram-1tb-ssd-mouse-1207796": {
   "id": "https://www.promodescuentos.com/ofertas/office-depot-lenovo-ideapad-core-i7-24gb-ram-1tb-ssd-mouse-1207796",
@@ -460,5 +376,187 @@
   "prioridad": "normal",
   "vencida": true,
   "revisada": "2026-11-12T18:35:13.705787-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/amazon-audifonos-sennheiser-momentum-5-wireless-blanco-4801-con-santbf26-y-scotbf26-5149-con-los-demas-1208321": {
+  "id": "https://www.promodescuentos.com/ofertas/amazon-audifonos-sennheiser-momentum-5-wireless-blanco-4801-con-santbf26-y-scotbf26-5149-con-los-demas-1208321",
+  "titulo": "Amazon: Audífonos Sennheiser Momentum 5 Wireless (Blanco) | $4,801 con SANTBF26 y SCOTBF26, $5,149 con los demás",
+  "link": "https://www.promodescuentos.com/ofertas/amazon-audifonos-sennheiser-momentum-5-wireless-blanco-4801-con-santbf26-y-scotbf26-5149-con-los-demas-1208321",
+  "tienda": "Amazon",
+  "precio": "$5,649",
+  "temp": 79,
+  "publicada": "2026-11-13T01:13:45-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/apple-macbook-pro-14-m5-16gb-512gb-ssd-negro-espacial-costco-1208273": {
+  "id": "https://www.promodescuentos.com/ofertas/apple-macbook-pro-14-m5-16gb-512gb-ssd-negro-espacial-costco-1208273",
+  "titulo": "Apple MacBook Pro 14\" M5 16GB 512GB SSD Negro Espacial, COSTCO",
+  "link": "https://www.promodescuentos.com/ofertas/apple-macbook-pro-14-m5-16gb-512gb-ssd-negro-espacial-costco-1208273",
+  "tienda": "Costco",
+  "precio": "$25,799",
+  "temp": 88,
+  "publicada": "2026-11-13T01:08:18-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": true,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/tarjeta-de-video-rtx-5070-ti-asus-prime-16gb-1208233": {
+  "id": "https://www.promodescuentos.com/ofertas/tarjeta-de-video-rtx-5070-ti-asus-prime-16gb-1208233",
+  "titulo": "Samara Online: Tarjeta de Video RTX 5070 Ti Asus Prime 16GB",
+  "link": "https://www.promodescuentos.com/ofertas/tarjeta-de-video-rtx-5070-ti-asus-prime-16gb-1208233",
+  "tienda": "",
+  "precio": "$22,989",
+  "temp": 279,
+  "publicada": "2026-11-13T00:51:16-06:00",
+  "categoria": "Tarjeta gráfica NVIDIA",
+  "emoji": "🎮",
+  "prioridad": "alta",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/laptop-hp-touch-amd-ryzen-7-ram-16gb-ram-512gb-promos-bancarias-1208242": {
+  "id": "https://www.promodescuentos.com/ofertas/laptop-hp-touch-amd-ryzen-7-ram-16gb-ram-512gb-promos-bancarias-1208242",
+  "titulo": "Elektra: Laptop HP Touch AMD Ryzen 7 RAM 16GB RAM 512GB 10% Al pagar con Paypal directo en carrito | Puede bajar más conPromos Bancarias",
+  "link": "https://www.promodescuentos.com/ofertas/laptop-hp-touch-amd-ryzen-7-ram-16gb-ram-512gb-promos-bancarias-1208242",
+  "tienda": "Elektra",
+  "precio": "$13,499",
+  "temp": 180,
+  "publicada": "2026-11-13T00:42:33-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/asus-rog-strix-g16-laptop-gamingryzen-9rtx-506016-fhd-165hz16gb-ram-512gb-ssdteclado-rgb-per-keygarantia-oficial-mexico-1208215": {
+  "id": "https://www.promodescuentos.com/ofertas/asus-rog-strix-g16-laptop-gamingryzen-9rtx-506016-fhd-165hz16gb-ram-512gb-ssdteclado-rgb-per-keygarantia-oficial-mexico-1208215",
+  "titulo": "Amazon: ASUS ROG Strix G16 Laptop Gaming/Ryzen 9/RTX 5060/16\" FHD+ 165Hz/16GB RAM-512GB SSD/Teclado RGB per-Key/Garantía Oficial México",
+  "link": "https://www.promodescuentos.com/ofertas/asus-rog-strix-g16-laptop-gamingryzen-9rtx-506016-fhd-165hz16gb-ram-512gb-ssdteclado-rgb-per-keygarantia-oficial-mexico-1208215",
+  "tienda": "Amazon",
+  "precio": "$30,999",
+  "temp": 410,
+  "publicada": "2026-11-13T00:40:43-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/macbook-neo-amazon-cupon-bonificacion-del-30-a-meses-1208130": {
+  "id": "https://www.promodescuentos.com/ofertas/macbook-neo-amazon-cupon-bonificacion-del-30-a-meses-1208130",
+  "titulo": "Amazon: MACBOOK NEO AMAZON CUPON + BONIFICACION DEL 30 a MESES CON SANTANDER",
+  "link": "https://www.promodescuentos.com/ofertas/macbook-neo-amazon-cupon-bonificacion-del-30-a-meses-1208130",
+  "tienda": "Amazon",
+  "precio": "$9,799",
+  "temp": 389,
+  "publicada": "2026-11-13T00:14:53-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/laptop-hp-15-i7-1355u-ram-16gb-512gb-156-touch-bonificaciones-bancarias-1208128": {
+  "id": "https://www.promodescuentos.com/ofertas/laptop-hp-15-i7-1355u-ram-16gb-512gb-156-touch-bonificaciones-bancarias-1208128",
+  "titulo": "Elektra: Laptop HP 15 i7 1355u RAM 16gb 512GB 15.6\" Touch PayPal + bonificaciones bancarias",
+  "link": "https://www.promodescuentos.com/ofertas/laptop-hp-15-i7-1355u-ram-16gb-512gb-156-touch-bonificaciones-bancarias-1208128",
+  "tienda": "Elektra",
+  "precio": "$13,499",
+  "temp": 190,
+  "publicada": "2026-11-13T00:09:06-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/gigabyte-gaming-a16-intel-i7-13620h-geforce-rtx-5070-32-gb-ram-1tb-almacenamiento-1208036": {
+  "id": "https://www.promodescuentos.com/ofertas/gigabyte-gaming-a16-intel-i7-13620h-geforce-rtx-5070-32-gb-ram-1tb-almacenamiento-1208036",
+  "titulo": "Amazon: GIGABYTE Gaming A16 - Intel i7-13620H GeForce RTX 5070 32 GB RAM, 1TB ALMACENAMIENTO Laptop",
+  "link": "https://www.promodescuentos.com/ofertas/gigabyte-gaming-a16-intel-i7-13620h-geforce-rtx-5070-32-gb-ram-1tb-almacenamiento-1208036",
+  "tienda": "Amazon",
+  "precio": "$30,499",
+  "temp": 161,
+  "publicada": "2026-11-12T22:52:07-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/amazon-monitor-samsung-g9-oled-g93sd-pagando-con-santander-dia-turbo-a-12msi-cupon-hasta-35-bonificacion-1208284": {
+  "id": "https://www.promodescuentos.com/ofertas/amazon-monitor-samsung-g9-oled-g93sd-pagando-con-santander-dia-turbo-a-12msi-cupon-hasta-35-bonificacion-1208284",
+  "titulo": "Amazon: Monitor Samsung Odyssey G8 (G80HS) | con Santander (Día Turbo) a 12MSI + Cupón + hasta 30% de bonificacion ($10399 con nomina)",
+  "link": "https://www.promodescuentos.com/ofertas/amazon-monitor-samsung-g9-oled-g93sd-pagando-con-santander-dia-turbo-a-12msi-cupon-hasta-35-bonificacion-1208284",
+  "tienda": "Amazon",
+  "precio": "$11,199",
+  "temp": 433,
+  "publicada": "2026-11-13T00:57:04-06:00",
+  "categoria": "Monitor",
+  "emoji": "🖥️",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/monitor-portatil-asus-mb16ahve-1208183": {
+  "id": "https://www.promodescuentos.com/ofertas/monitor-portatil-asus-mb16ahve-1208183",
+  "titulo": "Sam's Club: Monitor Portátil Asus MB16AHVE (Sin promo bancaria)",
+  "link": "https://www.promodescuentos.com/ofertas/monitor-portatil-asus-mb16ahve-1208183",
+  "tienda": "Sam's Club",
+  "precio": "$1,123",
+  "temp": 235,
+  "publicada": "2026-11-13T00:26:52-06:00",
+  "categoria": "Monitor",
+  "emoji": "🖥️",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/amazon-monitor-samsung-g9-oled-g93sd-pagando-con-santander-dia-turbo-a-12msi-cupon-hasta-35-bonificacion-1208129": {
+  "id": "https://www.promodescuentos.com/ofertas/amazon-monitor-samsung-g9-oled-g93sd-pagando-con-santander-dia-turbo-a-12msi-cupon-hasta-35-bonificacion-1208129",
+  "titulo": "Amazon: Monitor Samsung G9 OLED (G93SD) | Pagando con Santander (Día Turbo) a 12MSI + Cupón + hasta 35% bonificación",
+  "link": "https://www.promodescuentos.com/ofertas/amazon-monitor-samsung-g9-oled-g93sd-pagando-con-santander-dia-turbo-a-12msi-cupon-hasta-35-bonificacion-1208129",
+  "tienda": "Amazon",
+  "precio": "$10,149",
+  "temp": 52,
+  "publicada": "2026-11-13T00:09:18-06:00",
+  "categoria": "Monitor",
+  "emoji": "🖥️",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/amazon-samsung-27-odyssey-monitor-g30d-fhd-180hz-amd-freesync-tasa-de-refresco-de-180-hz-1207922": {
+  "id": "https://www.promodescuentos.com/ofertas/amazon-samsung-27-odyssey-monitor-g30d-fhd-180hz-amd-freesync-tasa-de-refresco-de-180-hz-1207922",
+  "titulo": "AMAZON: Samsung 27\" Odyssey Monitor G30D FHD 180Hz, AMD FreeSync, Tasa de refresco de 180 Hz",
+  "link": "https://www.promodescuentos.com/ofertas/amazon-samsung-27-odyssey-monitor-g30d-fhd-180hz-amd-freesync-tasa-de-refresco-de-180-hz-1207922",
+  "tienda": "Amazon",
+  "precio": "$2,473",
+  "temp": 141,
+  "publicada": "2026-11-12T19:28:49-06:00",
+  "categoria": "Monitor",
+  "emoji": "🖥️",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/procesador-amd-ryzen-7-5700x-para-socket-am4-8-nucleos-1207910": {
+  "id": "https://www.promodescuentos.com/ofertas/procesador-amd-ryzen-7-5700x-para-socket-am4-8-nucleos-1207910",
+  "titulo": "AliExpress: Procesador AMD Ryzen 7 5700X para Socket AM4, 8 Núcleos",
+  "link": "https://www.promodescuentos.com/ofertas/procesador-amd-ryzen-7-5700x-para-socket-am4-8-nucleos-1207910",
+  "tienda": "AliExpress",
+  "precio": "$2,209",
+  "temp": 649,
+  "publicada": "2026-11-12T19:06:24-06:00",
+  "categoria": "Procesador Ryzen",
+  "emoji": "⚙️",
+  "prioridad": "baja",
+  "vencida": false,
+  "revisada": "2026-11-13T01:26:18.556540-06:00"
  }
 }
