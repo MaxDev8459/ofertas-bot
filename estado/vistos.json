@@ -861,7 +861,7 @@
 },
 "https://www.promodescuentos.com/ofertas/gigabyte-gaming-a16-intel-i7-13620h-geforce-rtx-5070-32-gb-ram-1tb-almacenamiento-1208036": {
 "visto": "2026-11-13T01:26:18.556540-06:00",
-"alertado": false
+"alertado": true
 },
 "https://www.promodescuentos.com/ofertas/amazon-monitor-samsung-g9-oled-g93sd-pagando-con-santander-dia-turbo-a-12msi-cupon-hasta-35-bonificacion-1208284": {
 "visto": "2026-11-13T01:26:18.556540-06:00",
@@ -893,7 +893,7 @@
 },
 "https://www.promodescuentos.com/ofertas/computadora-asus-chromebook-2-en-1-con-50-de-descuento-1208603": {
 "visto": "2026-11-13T09:32:33.390863-06:00",
-"alertado": false
+"alertado": true
 },
 "https://www.promodescuentos.com/ofertas/asus-tuf-gaming-a16-laptop-gamingryzen-7-serie-200rtx-5050-cupon-bonificacion-santander-1208414": {
 "visto": "2026-11-13T09:32:33.390863-06:00",
@@ -1025,7 +1025,7 @@
 },
 "https://www.promodescuentos.com/ofertas/laptop-hp-15-fd1340la-156-pulgadas-intel-core-3-8-gb-ram-1209300": {
 "visto": "2026-11-14T02:10:52.568294-06:00",
-"alertado": false
+"alertado": true
 },
 "https://www.promodescuentos.com/ofertas/intel-core-ultra-5-225h-16gb-laptop-asus-vivobook-14-512gb-azul-1209214": {
 "visto": "2026-11-14T02:10:52.568294-06:00",
@@ -1045,6 +1045,38 @@
 },
 "https://www.promodescuentos.com/ofertas/tablet-lenovo-legion-y700-gen-5-12gb256gb-1209458": {
 "visto": "2026-11-14T09:12:56.347663-06:00",
+"alertado": true
+},
+"https://www.promodescuentos.com/ofertas/amazon-hp-laptop-core-i5-1334u-8-gb-256-gb-ssd-156-fhd-garantia-mexico-con-bbva-y-banorte-otros-bancos-en-descripcion-1209575": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/mercado-libre-laptop-asus-vivobook-14-intel-core-ultra-5-225h-16gb-512gb-pagando-con-bbva-msi-1209541": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/costco-apple-macbook-pro-14-proled-xdr-m5-pro-24gb-1tb-ssd-1209524": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": true
+},
+"https://www.promodescuentos.com/ofertas/aliexpress-nvme-netac-2tb-1209497": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/cyberpuerta-monitor-msi-mag-274qf-x24-fast-ips-27-2560x1440-240hz-1209525": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/aliexpress-procesador-amd-ryzen-7-7800x3d-1209548": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/aliexpress-amd-ryzen-7-9800x3d-120w-4nm-l3-96m-47-ghz-8-nucleos-16-hilos-r7-9800x3d-1209532": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/amd-ryzen-7-7800x3d-procesador-8-nucleos-16-hilos-50ghz-am5-96mb-1209496": {
+"visto": "2026-11-14T13:58:45.533504-06:00",
 "alertado": false
 }
 }
