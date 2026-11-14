@@ -1053,7 +1053,7 @@
 },
 "https://www.promodescuentos.com/ofertas/mercado-libre-laptop-asus-vivobook-14-intel-core-ultra-5-225h-16gb-512gb-pagando-con-bbva-msi-1209541": {
 "visto": "2026-11-14T13:58:45.533504-06:00",
-"alertado": false
+"alertado": true
 },
 "https://www.promodescuentos.com/ofertas/costco-apple-macbook-pro-14-proled-xdr-m5-pro-24gb-1tb-ssd-1209524": {
 "visto": "2026-11-14T13:58:45.533504-06:00",
@@ -1077,6 +1077,18 @@
 },
 "https://www.promodescuentos.com/ofertas/amd-ryzen-7-7800x3d-procesador-8-nucleos-16-hilos-50ghz-am5-96mb-1209496": {
 "visto": "2026-11-14T13:58:45.533504-06:00",
+"alertado": false
+},
+"https://www.promodescuentos.com/ofertas/amazon-hp-laptop-core-3-100u-8-gb-512-gb-ssd-garantia-mexico-5386-con-banorte-5534-con-bbva-mas-bancos-en-descripcion-1209742": {
+"visto": "2026-11-14T17:36:18.365163-06:00",
+"alertado": true
+},
+"https://www.promodescuentos.com/ofertas/walmart-tarjeta-de-video-asus-prime-geforce-rtx-5070-12gb-gddr7-con-santander-12msi-1209721": {
+"visto": "2026-11-14T17:36:18.365163-06:00",
+"alertado": true
+},
+"https://www.promodescuentos.com/ofertas/walmartbodega-aurrera-laptop-asus-tuf-a18-18-rtx5050-16gb-ram-1tb-ssd-con-santander-1209677": {
+"visto": "2026-11-14T17:36:18.365163-06:00",
 "alertado": false
 }
 }
