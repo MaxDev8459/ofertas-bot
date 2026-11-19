@@ -1,60 +1,4 @@
 {
- "https://www.promodescuentos.com/ofertas/monitor-gamer-200hz-baratisimo-27g521-1211152": {
-  "id": "https://www.promodescuentos.com/ofertas/monitor-gamer-200hz-baratisimo-27g521-1211152",
-  "titulo": "Mercado Libre: Monitor gamer 200hz baratísimo 27g521",
-  "link": "https://www.promodescuentos.com/ofertas/monitor-gamer-200hz-baratisimo-27g521-1211152",
-  "tienda": "Mercado Libre",
-  "precio": "$2,799",
-  "temp": 214,
-  "publicada": "2026-11-17T13:51:12-06:00",
-  "categoria": "Monitor",
-  "emoji": "🖥️",
-  "prioridad": "normal",
-  "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
- },
- "https://www.promodescuentos.com/ofertas/monitor-gamer-xg32wcs-va-wqhd-curvo-32-pulgadas-180-hz-1211140": {
-  "id": "https://www.promodescuentos.com/ofertas/monitor-gamer-xg32wcs-va-wqhd-curvo-32-pulgadas-180-hz-1211140",
-  "titulo": "Liverpool: Monitor Gamer XG32WCS VA WQHD Curvo 32 pulgadas 180 Hz",
-  "link": "https://www.promodescuentos.com/ofertas/monitor-gamer-xg32wcs-va-wqhd-curvo-32-pulgadas-180-hz-1211140",
-  "tienda": "Liverpool",
-  "precio": "$5,779",
-  "temp": 271,
-  "publicada": "2026-11-17T12:59:18-06:00",
-  "categoria": "Monitor",
-  "emoji": "🖥️",
-  "prioridad": "normal",
-  "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
- },
- "https://www.promodescuentos.com/ofertas/laptop-original-anluan-de-156-pulgadas-1211112": {
-  "id": "https://www.promodescuentos.com/ofertas/laptop-original-anluan-de-156-pulgadas-1211112",
-  "titulo": "AliExpress: Laptop Original ANLUAN de 15.6 Pulgadas",
-  "link": "https://www.promodescuentos.com/ofertas/laptop-original-anluan-de-156-pulgadas-1211112",
-  "tienda": "AliExpress",
-  "precio": "$3,429",
-  "temp": 557,
-  "publicada": "2026-11-17T11:56:47-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
- },
- "https://www.promodescuentos.com/ofertas/coppel-laptop-gamer-asus-gaming-v16-16-pulgadas-rtx-5050-1211109": {
-  "id": "https://www.promodescuentos.com/ofertas/coppel-laptop-gamer-asus-gaming-v16-16-pulgadas-rtx-5050-1211109",
-  "titulo": "Coppel Laptop Gamer Asus Gaming V16 16 Pulgadas RTX 5050",
-  "link": "https://www.promodescuentos.com/ofertas/coppel-laptop-gamer-asus-gaming-v16-16-pulgadas-rtx-5050-1211109",
-  "tienda": "Coppel",
-  "precio": "$18,999",
-  "temp": 372,
-  "publicada": "2026-11-17T13:40:24-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": true,
-  "revisada": "2026-11-18T18:33:48.201802-06:00"
- },
  "https://www.promodescuentos.com/ofertas/crucial-kit-de-memoria-ddr5-ram-de-32-gb-2-x-16-gb-5600-mhz-o-5200-mhz-o-4800-mhz-para-portatil-sodimm-1211293": {
   "id": "https://www.promodescuentos.com/ofertas/crucial-kit-de-memoria-ddr5-ram-de-32-gb-2-x-16-gb-5600-mhz-o-5200-mhz-o-4800-mhz-para-portatil-sodimm-1211293",
   "titulo": "Crucial - Kit de Memoria DDR5 RAM de 32 GB (2 x 16 GB), 5600 MHz (o 5200 MHz o 4800 MHz) para portátil SODIMM",
@@ -95,21 +39,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
- },
- "https://www.promodescuentos.com/ofertas/mercado-libre-laptop-gamer-msi-cyborg-15-c13w-rtx-5050-8gb-santander-12-msi-1211174": {
-  "id": "https://www.promodescuentos.com/ofertas/mercado-libre-laptop-gamer-msi-cyborg-15-c13w-rtx-5050-8gb-santander-12-msi-1211174",
-  "titulo": "Mercado Libre: Laptop Gamer Msi Cyborg 15 C13W RTX 5050 8GB | con Santander + 12 MSI",
-  "link": "https://www.promodescuentos.com/ofertas/mercado-libre-laptop-gamer-msi-cyborg-15-c13w-rtx-5050-8gb-santander-12-msi-1211174",
-  "tienda": "Mercado Libre",
-  "precio": "$14,909",
-  "temp": 335,
-  "publicada": "2026-11-17T14:42:03-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": true,
-  "revisada": "2026-11-18T03:29:19.735122-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/walmart-macbook-air-m5-de-16gb512gb-midnight-a-18-msi-1211410": {
   "id": "https://www.promodescuentos.com/ofertas/walmart-macbook-air-m5-de-16gb512gb-midnight-a-18-msi-1211410",
@@ -151,7 +81,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/amazon-acer-monitor-de-238-pulgadas-fhd-negro-120-hz-1-ms-ips-1211494": {
   "id": "https://www.promodescuentos.com/ofertas/amazon-acer-monitor-de-238-pulgadas-fhd-negro-120-hz-1-ms-ips-1211494",
@@ -179,7 +109,7 @@
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/walmart-macbook-neo-13-a18-pro-256gb-ssd-8gb-ram-mac-os-citrus-con-teclado-en-ingles-con-banamex-a-18msi-1211456": {
   "id": "https://www.promodescuentos.com/ofertas/walmart-macbook-neo-13-a18-pro-256gb-ssd-8gb-ram-mac-os-citrus-con-teclado-en-ingles-con-banamex-a-18msi-1211456",
@@ -207,7 +137,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/royalcdkeys-windows-11-enterprise-iot-ltsc-2024-cd-key-1211577": {
   "id": "https://www.promodescuentos.com/ofertas/royalcdkeys-windows-11-enterprise-iot-ltsc-2024-cd-key-1211577",
@@ -221,7 +151,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/aliexpress-ugreen-raton-inalambrico-bluetooth50-mouse-ergonomico-4000dpi-6-botones-mudos-mouse-para-laptops-de-tableta-macbook-pc-24g-1211314": {
   "id": "https://www.promodescuentos.com/ofertas/aliexpress-ugreen-raton-inalambrico-bluetooth50-mouse-ergonomico-4000dpi-6-botones-mudos-mouse-para-laptops-de-tableta-macbook-pc-24g-1211314",
@@ -235,7 +165,7 @@
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/amazon-lg-monitor-ultragear-25g523b-b-200hz-full-hd-1920-x-1080-gaming-tiempo-de-respuesta-1ms-1211641": {
   "id": "https://www.promodescuentos.com/ofertas/amazon-lg-monitor-ultragear-25g523b-b-200hz-full-hd-1920-x-1080-gaming-tiempo-de-respuesta-1ms-1211641",
@@ -243,13 +173,13 @@
   "link": "https://www.promodescuentos.com/ofertas/amazon-lg-monitor-ultragear-25g523b-b-200hz-full-hd-1920-x-1080-gaming-tiempo-de-respuesta-1ms-1211641",
   "tienda": "Amazon",
   "precio": "$1,999",
-  "temp": 134,
+  "temp": 136,
   "publicada": "2026-11-18T23:11:55-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/lenovo-laptop-gamer-loq-intel-core-i7-13650hx-16gb-ram-512-gb-ssd-nvidia-geforce-rtx-5050-8gb-1211628": {
   "id": "https://www.promodescuentos.com/ofertas/lenovo-laptop-gamer-loq-intel-core-i7-13650hx-16gb-ram-512-gb-ssd-nvidia-geforce-rtx-5050-8gb-1211628",
@@ -291,7 +221,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/asus-rog-strix-g18-18-240hz-amd-ryzen-9-rtx-5070-gddr7-32gb-ram-1tb-ssd-precio-mas-bajo-segun-keepa-1211723": {
   "id": "https://www.promodescuentos.com/ofertas/asus-rog-strix-g18-18-240hz-amd-ryzen-9-rtx-5070-gddr7-32gb-ram-1tb-ssd-precio-mas-bajo-segun-keepa-1211723",
@@ -305,7 +235,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  },
  "https://www.promodescuentos.com/ofertas/laptop-gamer-rtx-4050-1211708": {
   "id": "https://www.promodescuentos.com/ofertas/laptop-gamer-rtx-4050-1211708",
@@ -320,5 +250,19 @@
   "prioridad": "normal",
   "vencida": true,
   "revisada": "2026-11-19T11:28:01.547145-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865": {
+  "id": "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865",
+  "titulo": "Laptop HP N150 14\" (14-ep2112wm) en Mercado Libre $4,701.55 con cupón INTEL 5% OFF",
+  "link": "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865",
+  "tienda": "Mercado Libre",
+  "precio": "$4,702",
+  "temp": 596,
+  "publicada": "2026-11-19T15:48:16-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": true,
+  "revisada": "2026-11-19T17:40:28.419486-06:00"
  }
 }
