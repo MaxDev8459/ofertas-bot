@@ -1,18 +1,4 @@
 {
- "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865": {
-  "id": "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865",
-  "titulo": "Laptop HP N150 14\" (14-ep2112wm) en Mercado Libre $4,701.55 con cupón INTEL 5% OFF",
-  "link": "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865",
-  "tienda": "Mercado Libre",
-  "precio": "$4,702",
-  "temp": 596,
-  "publicada": "2026-11-19T15:48:16-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": true,
-  "revisada": "2026-11-19T17:40:28.419486-06:00"
- },
  "https://www.promodescuentos.com/ofertas/liverpool-laptop-gamer-is74-18-pulgadas-wuxga-amd-ryzen-7-nvidia-geforce-rtx-5060-16-gb-ram-1-tb-1211995": {
   "id": "https://www.promodescuentos.com/ofertas/liverpool-laptop-gamer-is74-18-pulgadas-wuxga-amd-ryzen-7-nvidia-geforce-rtx-5060-16-gb-ram-1-tb-1211995",
   "titulo": "Liverpool: Laptop gamer IS74 18 pulgadas WUXGA AMD Ryzen 7 NVIDIA GeForce RTX 5060 16 GB RAM 1 TB",
@@ -61,13 +47,13 @@
   "link": "https://www.promodescuentos.com/ofertas/samsung-store-monitor-gamer-32-pulgadas-odyssey-oled-g7-g73sh-4k-165hz-1080p-330hz-1212141",
   "tienda": "Samsung Store",
   "precio": "$10,760",
-  "temp": 26,
+  "temp": 75,
   "publicada": "2026-11-20T15:18:43-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T11:39:59.847593-06:00"
+  "revisada": "2026-11-21T16:29:12.731553-06:00"
  },
  "https://www.promodescuentos.com/ofertas/asus-laptop-gamer-is74-18-pulgadas-wuxga-amd-ryzen-7-nvidia-geforce-rtx-5060-16-gb-ram-1-tb-1212015": {
   "id": "https://www.promodescuentos.com/ofertas/asus-laptop-gamer-is74-18-pulgadas-wuxga-amd-ryzen-7-nvidia-geforce-rtx-5060-16-gb-ram-1-tb-1212015",
@@ -95,7 +81,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T11:39:59.847593-06:00"
+  "revisada": "2026-11-21T16:29:12.731553-06:00"
  },
  "https://www.promodescuentos.com/ofertas/samsung-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-1212147": {
   "id": "https://www.promodescuentos.com/ofertas/samsung-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-1212147",
@@ -123,7 +109,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T11:39:59.847593-06:00"
+  "revisada": "2026-11-21T16:29:12.731553-06:00"
  },
  "https://www.promodescuentos.com/ofertas/asus-rog-xg27aqdmgr-1212314": {
   "id": "https://www.promodescuentos.com/ofertas/asus-rog-xg27aqdmgr-1212314",
@@ -131,13 +117,13 @@
   "link": "https://www.promodescuentos.com/ofertas/asus-rog-xg27aqdmgr-1212314",
   "tienda": "Amazon",
   "precio": "$10,093",
-  "temp": 432,
+  "temp": 471,
   "publicada": "2026-11-21T11:05:31-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T11:39:59.847593-06:00"
+  "revisada": "2026-11-21T16:29:12.731553-06:00"
  },
  "https://www.promodescuentos.com/ofertas/aliexpress-ugreen-usb-c-5-in-1-hub-1212299": {
   "id": "https://www.promodescuentos.com/ofertas/aliexpress-ugreen-usb-c-5-in-1-hub-1212299",
@@ -151,6 +137,20 @@
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T11:39:59.847593-06:00"
+  "revisada": "2026-11-21T16:29:12.731553-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/nvidia-cursos-gratis-de-ia-generativa-cuda-y-robotica-con-certificado-en-ingles-1212361": {
+  "id": "https://www.promodescuentos.com/ofertas/nvidia-cursos-gratis-de-ia-generativa-cuda-y-robotica-con-certificado-en-ingles-1212361",
+  "titulo": "NVIDIA: cursos gratis de IA generativa, CUDA y robótica (con certificado, en inglés)",
+  "link": "https://www.promodescuentos.com/ofertas/nvidia-cursos-gratis-de-ia-generativa-cuda-y-robotica-con-certificado-en-ingles-1212361",
+  "tienda": "",
+  "precio": "",
+  "temp": 168,
+  "publicada": "2026-11-21T16:17:28-06:00",
+  "categoria": "Tarjeta gráfica NVIDIA",
+  "emoji": "🎮",
+  "prioridad": "alta",
+  "vencida": false,
+  "revisada": "2026-11-21T16:29:12.731553-06:00"
  }
 }
