@@ -1,46 +1,4 @@
 {
- "https://www.promodescuentos.com/ofertas/walmart-paco-rabanne-invictus-100-ml-1211626": {
-  "id": "https://www.promodescuentos.com/ofertas/walmart-paco-rabanne-invictus-100-ml-1211626",
-  "titulo": "Walmart | Paco Rabanne Invictus EDT 100 Ml",
-  "link": "https://www.promodescuentos.com/ofertas/walmart-paco-rabanne-invictus-100-ml-1211626",
-  "tienda": "Walmart",
-  "precio": "$1,050",
-  "temp": 153,
-  "publicada": "2026-11-19T08:48:13-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": false,
-  "revisada": "2026-11-21T04:20:15.158567-06:00"
- },
- "https://www.promodescuentos.com/ofertas/asus-rog-strix-g18-18-240hz-amd-ryzen-9-rtx-5070-gddr7-32gb-ram-1tb-ssd-precio-mas-bajo-segun-keepa-1211723": {
-  "id": "https://www.promodescuentos.com/ofertas/asus-rog-strix-g18-18-240hz-amd-ryzen-9-rtx-5070-gddr7-32gb-ram-1tb-ssd-precio-mas-bajo-segun-keepa-1211723",
-  "titulo": "Amazon: Laptop ASUS ROG Strix G18/ 18\" 240Hz / AMD Ryzen 9 / RTX 5070 (GDDR7) | 32GB RAM/ 1TB SSD/",
-  "link": "https://www.promodescuentos.com/ofertas/asus-rog-strix-g18-18-240hz-amd-ryzen-9-rtx-5070-gddr7-32gb-ram-1tb-ssd-precio-mas-bajo-segun-keepa-1211723",
-  "tienda": "Amazon",
-  "precio": "$41,826",
-  "temp": 533,
-  "publicada": "2026-11-19T08:02:04-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": false,
-  "revisada": "2026-11-21T04:20:15.158567-06:00"
- },
- "https://www.promodescuentos.com/ofertas/laptop-gamer-rtx-4050-1211708": {
-  "id": "https://www.promodescuentos.com/ofertas/laptop-gamer-rtx-4050-1211708",
-  "titulo": "Amazon: Laptop gamer AORUS rtx 4050",
-  "link": "https://www.promodescuentos.com/ofertas/laptop-gamer-rtx-4050-1211708",
-  "tienda": "Amazon",
-  "precio": "$9,932",
-  "temp": 395,
-  "publicada": "2026-11-19T05:13:22-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": true,
-  "revisada": "2026-11-19T11:28:01.547145-06:00"
- },
  "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865": {
   "id": "https://www.promodescuentos.com/ofertas/laptop-hp-n150-14-14-ep2112wm-en-mercado-libre-470155-con-cupon-intel-5-off-1211865",
   "titulo": "Laptop HP N150 14\" (14-ep2112wm) en Mercado Libre $4,701.55 con cupón INTEL 5% OFF",
@@ -103,13 +61,13 @@
   "link": "https://www.promodescuentos.com/ofertas/samsung-store-monitor-gamer-32-pulgadas-odyssey-oled-g7-g73sh-4k-165hz-1080p-330hz-1212141",
   "tienda": "Samsung Store",
   "precio": "$10,760",
-  "temp": 450,
+  "temp": 26,
   "publicada": "2026-11-20T15:18:43-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T04:20:15.158567-06:00"
+  "revisada": "2026-11-21T11:39:59.847593-06:00"
  },
  "https://www.promodescuentos.com/ofertas/asus-laptop-gamer-is74-18-pulgadas-wuxga-amd-ryzen-7-nvidia-geforce-rtx-5060-16-gb-ram-1-tb-1212015": {
   "id": "https://www.promodescuentos.com/ofertas/asus-laptop-gamer-is74-18-pulgadas-wuxga-amd-ryzen-7-nvidia-geforce-rtx-5060-16-gb-ram-1-tb-1212015",
@@ -137,7 +95,7 @@
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T04:20:15.158567-06:00"
+  "revisada": "2026-11-21T11:39:59.847593-06:00"
  },
  "https://www.promodescuentos.com/ofertas/samsung-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-1212147": {
   "id": "https://www.promodescuentos.com/ofertas/samsung-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-monitor-para-juegos-odyssey-g9-g91f-dqhd-de-49-y-144-hz-1212147",
@@ -159,12 +117,40 @@
   "link": "https://www.promodescuentos.com/ofertas/lapto-gamer-intel-core-i7-173-1212216",
   "tienda": "Walmart",
   "precio": "$27,899",
-  "temp": 623,
+  "temp": 624,
   "publicada": "2026-11-20T22:05:15-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-21T04:20:15.158567-06:00"
+  "revisada": "2026-11-21T11:39:59.847593-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/asus-rog-xg27aqdmgr-1212314": {
+  "id": "https://www.promodescuentos.com/ofertas/asus-rog-xg27aqdmgr-1212314",
+  "titulo": "Amazon: Monitor ASUS ROG XG27AQDMGR",
+  "link": "https://www.promodescuentos.com/ofertas/asus-rog-xg27aqdmgr-1212314",
+  "tienda": "Amazon",
+  "precio": "$10,093",
+  "temp": 432,
+  "publicada": "2026-11-21T11:05:31-06:00",
+  "categoria": "Monitor",
+  "emoji": "🖥️",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-21T11:39:59.847593-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/aliexpress-ugreen-usb-c-5-in-1-hub-1212299": {
+  "id": "https://www.promodescuentos.com/ofertas/aliexpress-ugreen-usb-c-5-in-1-hub-1212299",
+  "titulo": "AliExpress: Power Bank UGREEN USB-C 5-in-1 Hub",
+  "link": "https://www.promodescuentos.com/ofertas/aliexpress-ugreen-usb-c-5-in-1-hub-1212299",
+  "tienda": "AliExpress",
+  "precio": "$336",
+  "temp": 227,
+  "publicada": "2026-11-21T09:46:02-06:00",
+  "categoria": "UGREEN",
+  "emoji": "🔌",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-21T11:39:59.847593-06:00"
  }
 }
