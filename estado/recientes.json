@@ -1,31 +1,17 @@
 {
- "https://www.promodescuentos.com/ofertas/amazon-skechers-womens-rosencrans-mid-quartz-plastic-and-silicone-casual-sports-watch-1212780": {
-  "id": "https://www.promodescuentos.com/ofertas/amazon-skechers-womens-rosencrans-mid-quartz-plastic-and-silicone-casual-sports-watch-1212780",
-  "titulo": "Amazon: Reloj Skechers Women's Rosencrans Mid Quartz Plastic and Silicone Casual Sports Watch",
-  "link": "https://www.promodescuentos.com/ofertas/amazon-skechers-womens-rosencrans-mid-quartz-plastic-and-silicone-casual-sports-watch-1212780",
-  "tienda": "Amazon",
-  "precio": "$209",
-  "temp": 185,
-  "publicada": "2026-11-23T17:31:10-06:00",
-  "categoria": "Laptop",
-  "emoji": "💻",
-  "prioridad": "normal",
-  "vencida": true,
-  "revisada": "2026-11-23T19:02:14.002824-06:00"
- },
  "https://www.promodescuentos.com/ofertas/aliexpress-anluan-laptop-de-156-pulgadas-con-windows-11-procesador-intel-i3-6100u-16256-enviada-desde-mexico-1212895": {
   "id": "https://www.promodescuentos.com/ofertas/aliexpress-anluan-laptop-de-156-pulgadas-con-windows-11-procesador-intel-i3-6100u-16256-enviada-desde-mexico-1212895",
   "titulo": "Aliexpress: ANLUAN Laptop de 15,6 pulgadas con Windows 11, procesador Intel i3-6100U, 16/256, enviada desde México",
   "link": "https://www.promodescuentos.com/ofertas/aliexpress-anluan-laptop-de-156-pulgadas-con-windows-11-procesador-intel-i3-6100u-16256-enviada-desde-mexico-1212895",
   "tienda": "AliExpress",
   "precio": "$4,222",
-  "temp": 317,
+  "temp": 230,
   "publicada": "2026-11-24T00:33:34-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/costco-apple-mac-mini-m5-pro-24gb-512gb-ssd-1212888": {
   "id": "https://www.promodescuentos.com/ofertas/costco-apple-mac-mini-m5-pro-24gb-512gb-ssd-1212888",
@@ -33,13 +19,13 @@
   "link": "https://www.promodescuentos.com/ofertas/costco-apple-mac-mini-m5-pro-24gb-512gb-ssd-1212888",
   "tienda": "Costco",
   "precio": "$34,999",
-  "temp": 54,
+  "temp": 31,
   "publicada": "2026-11-24T00:00:16-06:00",
   "categoria": "SSD",
   "emoji": "💾",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/walmart-laptop-gamer-machenike-l16s-r7-7745hx-rtx-5060-16-qhd-300hz-16gb-ram-1tb-ssd-windows-11-pro-teclado-espanol-gris-1212877": {
   "id": "https://www.promodescuentos.com/ofertas/walmart-laptop-gamer-machenike-l16s-r7-7745hx-rtx-5060-16-qhd-300hz-16gb-ram-1tb-ssd-windows-11-pro-teclado-espanol-gris-1212877",
@@ -47,27 +33,13 @@
   "link": "https://www.promodescuentos.com/ofertas/walmart-laptop-gamer-machenike-l16s-r7-7745hx-rtx-5060-16-qhd-300hz-16gb-ram-1tb-ssd-windows-11-pro-teclado-espanol-gris-1212877",
   "tienda": "Walmart",
   "precio": "$26,077",
-  "temp": 317,
+  "temp": 230,
   "publicada": "2026-11-23T23:14:58-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
- },
- "https://www.promodescuentos.com/ofertas/amazon-ugreen-nexode-air-65w-cargador-tipo-c-con-100w-cable-usb-c-carga-rapida-1212837": {
-  "id": "https://www.promodescuentos.com/ofertas/amazon-ugreen-nexode-air-65w-cargador-tipo-c-con-100w-cable-usb-c-carga-rapida-1212837",
-  "titulo": "Amazon: UGREEN Nexode Air 65W Cargador Tipo C con 100W Cable USB C Carga Rápida",
-  "link": "https://www.promodescuentos.com/ofertas/amazon-ugreen-nexode-air-65w-cargador-tipo-c-con-100w-cable-usb-c-carga-rapida-1212837",
-  "tienda": "Amazon",
-  "precio": "$519",
-  "temp": 429,
-  "publicada": "2026-11-23T21:56:54-06:00",
-  "categoria": "UGREEN",
-  "emoji": "🔌",
-  "prioridad": "normal",
-  "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/aliexpress-arzopa-monitor-portatil-de-161-pulgadas-25k-180hz-con-cupon-de-black-friday-desde-mexico-1212964": {
   "id": "https://www.promodescuentos.com/ofertas/aliexpress-arzopa-monitor-portatil-de-161-pulgadas-25k-180hz-con-cupon-de-black-friday-desde-mexico-1212964",
@@ -81,7 +53,7 @@
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/aliexpress-laptop-basica-anluan-pantalla-156-i3-6100u-16gb256gb-envio-desde-mexico-1212935": {
   "id": "https://www.promodescuentos.com/ofertas/aliexpress-laptop-basica-anluan-pantalla-156-i3-6100u-16gb256gb-envio-desde-mexico-1212935",
@@ -103,13 +75,13 @@
   "link": "https://www.promodescuentos.com/ofertas/lg-monitor-ultrawide-29-wfhd-100hz-ips-1212967",
   "tienda": "Amazon",
   "precio": "$3,340",
-  "temp": 194,
+  "temp": 203,
   "publicada": "2026-11-24T10:48:30-06:00",
   "categoria": "Monitor",
   "emoji": "🖥️",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/walmart-laptop-lenovo-ideapad-slim-3-intel-core-3-8gb-512gb-ssd-tactil-a-10499-1213088": {
   "id": "https://www.promodescuentos.com/ofertas/walmart-laptop-lenovo-ideapad-slim-3-intel-core-3-8gb-512gb-ssd-tactil-a-10499-1213088",
@@ -173,13 +145,13 @@
   "link": "https://www.promodescuentos.com/ofertas/asus-chrome-cm14-1213177",
   "tienda": "Amazon",
   "precio": "$4,997",
-  "temp": 317,
+  "temp": 230,
   "publicada": "2026-11-25T01:36:59-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/amazon-ugreen-clipbuds-pro2-audifonos-open-ear-46htraduccion-ai-en-tiempo-real-1213345": {
   "id": "https://www.promodescuentos.com/ofertas/amazon-ugreen-clipbuds-pro2-audifonos-open-ear-46htraduccion-ai-en-tiempo-real-1213345",
@@ -193,7 +165,7 @@
   "emoji": "🔌",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/bodega-aurrera-laptop-acer-aspire-lite-156-fhd-ips-intel-core-i3-8gb-ram-128gb-ssd-windows-11-home-5399-banamex-5203-bbva-1213324": {
   "id": "https://www.promodescuentos.com/ofertas/bodega-aurrera-laptop-acer-aspire-lite-156-fhd-ips-intel-core-i3-8gb-ram-128gb-ssd-windows-11-home-5399-banamex-5203-bbva-1213324",
@@ -201,13 +173,13 @@
   "link": "https://www.promodescuentos.com/ofertas/bodega-aurrera-laptop-acer-aspire-lite-156-fhd-ips-intel-core-i3-8gb-ram-128gb-ssd-windows-11-home-5399-banamex-5203-bbva-1213324",
   "tienda": "Bodega Aurrera",
   "precio": "$5,999",
-  "temp": 127,
+  "temp": 230,
   "publicada": "2026-11-25T14:34:33-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  },
  "https://www.promodescuentos.com/ofertas/laptop-asus-vivobook-x1504va-16gb-ram-512gb-ssd-touchscreen-1213317": {
   "id": "https://www.promodescuentos.com/ofertas/laptop-asus-vivobook-x1504va-16gb-ram-512gb-ssd-touchscreen-1213317",
@@ -215,12 +187,26 @@
   "link": "https://www.promodescuentos.com/ofertas/laptop-asus-vivobook-x1504va-16gb-ram-512gb-ssd-touchscreen-1213317",
   "tienda": "Walmart",
   "precio": "$11,050",
-  "temp": 317,
+  "temp": 229,
   "publicada": "2026-11-25T16:27:37-06:00",
   "categoria": "Laptop",
   "emoji": "💻",
   "prioridad": "normal",
   "vencida": false,
-  "revisada": "2026-11-25T17:23:22.624921-06:00"
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
+ },
+ "https://www.promodescuentos.com/ofertas/lenovo-loq-1213376": {
+  "id": "https://www.promodescuentos.com/ofertas/lenovo-loq-1213376",
+  "titulo": "Walmart: Laptop Lenovo LOQ 15.6\" R7 RTX4050 16GB RAM 512GB SSD | BBVA",
+  "link": "https://www.promodescuentos.com/ofertas/lenovo-loq-1213376",
+  "tienda": "Walmart",
+  "precio": "$16,430",
+  "temp": 358,
+  "publicada": "2026-11-25T19:23:50-06:00",
+  "categoria": "Laptop",
+  "emoji": "💻",
+  "prioridad": "normal",
+  "vencida": false,
+  "revisada": "2026-11-25T23:13:41.289097-06:00"
  }
 }
